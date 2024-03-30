@@ -1,0 +1,78 @@
+#title{
+    background-color: hsl(180, 100%, 25%);
+    text-align: center;
+    position: relative;
+    text-transform: capitalize;
+    color: #ff0000;
+}
+#sale{
+    background-color: red;
+    color:white;
+    font-size: 50px;
+    text-align: center;
+}
+#products{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+  justify-content: space-evenly;
+}
+#products:hover{
+    color: #ff0000;
+}
+.lap1{
+    font-weight: 10px;
+    font-size: small;
+}
+.lap1:hover{
+    color: #ff0000;
+}
+#asus{
+    margin: 5px;
+    border: 1px solid hsl(0, 0%, 0%);
+    /* border-radius: 20px; */
+   
+}
+.asuspic:hover{
+    background-color: burlywood;
+    transform: scale(2);
+}
+
+button{
+    height: 30px;
+    width: 110px;
+    background-color:black;
+    color: blue;
+    cursor: pointer;
+}
+.ul:hover{
+    color: black;
+}
+
+#apple{
+    margin: 5px;
+    border: 1px solid black;
+
+}
+.applepic:hover{
+    background-color: burlywood;
+    transform: scale(1.2);
+}
+.lap2{
+    font-weight: 10px;
+    font-size: small;
+}
+.lap2:hover{
+    color: #ff0000;
+}
+.lap3{
+    font-weight: 10px;
+    font-size: small;
+}
+.lap3:hover{
+    color: #ff0000;
+}
+#hp{
+    margin: 5px;
+    border: 1px solid black;
+}

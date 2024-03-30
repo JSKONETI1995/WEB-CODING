@@ -1,0 +1,29 @@
+div h1{
+
+background-color: #008080;
+text-align: center;
+}
+#signup{
+   padding: 5px;
+    border: 2px dashed red;
+    text-align: center;
+}
+button{
+    background-color: #008080;
+    color: hsl(208, 100%, 97%);
+}
+input{
+margin: 8px;
+height: 50px;
+width: 200px;
+border-radius: 5px;
+border-top-style: solid;
+border-left-width: double;
+border-right-style: double;
+border-bottom-style: solid;
+
+border-top-color: hsl(180, 100%, 25%);
+border-bottom-color: #7fff00;
+}
+
+

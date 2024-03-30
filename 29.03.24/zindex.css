@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#index + h1{
+    color: hsl(0, 100%, 50%);
+    background-color: hsl(180, 100%, 25%);
+}
+#images{
+    color: black;
+    padding: 30px;
+    text-align: center;
+   
+}
+.image1{
+
+}
+.image1:hover{
+    transform: scale(1.5);
+}
+.image2{
+position: absolute;
+left: 15%;
+top: 55%;
+z-index: 1;
+}
+
+.image2:hover{
+    transform: scale(1.5);
+}
+.image3{
+    position: absolute;
+    top: 620px;
+    left: 10px;
+    z-index: 1;
+}
+.image3:hover{
+    transform: scale(1.5);
+}
+.image4{
+    position: absolute;
+    top: 880px;
+    left: 200px;
+    z-index: 1;
+}
+.image4:hover{
+    transform: scale(1.5);
+}
+.image5{
+    position: absolute;
+    top: 1150px;
+    left: 10px;
+    z-index: 1
+}
+.image5:hover{
+    transform: scale(1.5);
+}
