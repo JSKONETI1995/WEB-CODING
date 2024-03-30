@@ -39,24 +39,60 @@ button{
     background-color: antiquewhite;
     height: 800px;
     border-radius: 30px;
+    animation-name: zooming;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+
 }
 #redmi{
     background-color: antiquewhite;
     height: 800px;
     border-radius: 30px;
+    animation-name: zooming;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+
 }
 #oppo{
 background-color: antiquewhite;
 color: black;
     height: 800px;
     border-radius: 30px;
+    animation-name: zooming;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+}
+@keyframes zooming{
+    from{
+        background-color: #ff0000;
+        transform: scale(1.5);
+        box-shadow: 2px, 2px, 2px, #adff2f;
+    }
+    to{
+        background-color: hsl(84, 100%, 59%);
+        transform: scale(1);
+        box-shadow: 4px, 4px 4px, hsl(0, 100%, 50%);
+
+    }
 }
 #moto{
     
     background-color: antiquewhite;
     height: 800px;
     border-radius: 30px;
+    animation-name: zooming;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
 }
+
 .sprice{
     color: hsl(240, 100%, 50%)
 }
