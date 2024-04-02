@@ -1,0 +1,16 @@
+/* body{
+    padding: 200px;
+} */
+#vertical{
+    height: 100px;
+   padding: 100px;
+    border-right: 1px solid hsl(0, 100%, 50%);
+}
+#box{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+/* #boxi{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+} */
