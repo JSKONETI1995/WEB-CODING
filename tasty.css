@@ -1,0 +1,12 @@
+#food{
+   height: 100px;
+   width: 100px;
+   border-radius: 50%; 
+} 
+#food:hover{
+  transform: scale(1.2)
+}
+h1:hover{
+    text-decoration: underline;
+color: blue; 
+}
