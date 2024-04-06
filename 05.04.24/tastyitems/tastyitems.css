@@ -1,0 +1,58 @@
+.li{
+    list-style-type: none;
+}
+
+.li:hover{
+    text-decoration: underline;
+}
+#logo{
+    height: 30px;
+    margin-right: 10px;
+}
+
+.image{
+    height: 300px;
+    border-radius: 20px;
+    padding: 2px;
+    background-color: aqua;
+}
+
+.image2{
+    height: 200px;
+
+    transition-property: all;
+    transition-duration: 1s;
+}
+
+.image2:hover{
+    transform: scale(1.1);
+
+}
+
+.food-container{
+    border: 1px solid #808080;
+    text-align: center;
+    width: 350px;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 5px 0px 0px 5px;
+}
+
+.content{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+
+}
+
+.items-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+#foot:hover{
+    text-decoration: underline;
+    color: azure;
+    transform: scale(1.2);
+}
